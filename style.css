@@ -1,11 +1,16 @@
 body {
     background-color: paleturquoise;
+    height: 100vh;
+    margin: 0;
+}
+.container {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap; 
-    height: 100vh;
-    margin: 0;
+}
+h1, h2, p {
+    text-align: center;
 }
 /* .card {
     background-color: #fff;
@@ -29,7 +34,10 @@ h1 {
       
 }
 img {
-    height: 200 px;
+    height: 500px;
+    border-radius: 20px;
+    margin: 0 auto;
+    display: block;
 }
 p {
     font-family: "Cedarville Cursive", cursive;
